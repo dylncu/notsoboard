@@ -38,3 +38,5 @@ Route::get('/reviews', 'ReviewController@index');
 Route::post('/review', 'ReviewController@store');
 
 Route::get('/home', 'HomeController@home')->name('home');
+//for deployment
+Auth::routes(['register' => false]);
