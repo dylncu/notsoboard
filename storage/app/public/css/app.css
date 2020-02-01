@@ -1,0 +1,203 @@
+.navbar
+{
+    border-bottom:1px solid gray;
+}
+.game-image{
+    max-width: 70%;
+    max-height: 200px;
+}
+.game-arrow{
+    color: #026670;
+}
+.game-rating{
+    color: #026670;
+}
+.games-title{
+    text-align: center;
+    padding-top: 1em;
+}
+.tag{
+    color: #026670;
+}
+
+.tag:hover{
+    color: #9FEDD7;
+    text-decoration: none;
+}
+
+.markdown img{
+    max-width: 70%;
+    margin-left: 15%;
+}
+
+.out-of{
+    color: rgb(189, 189, 189);
+}
+
+.nav{
+    border-bottom: 0em;
+}
+
+.reviews-block{
+    margin-top: 2em;
+}
+
+.feature-welcome{
+   margin-top: 2em;
+}
+
+.feature-text{
+    color: white;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.top-rated{
+    color: black;
+}
+.top-rated-list-item{
+    background-color: #a6f8e1;
+}
+
+.top-rated:hover{
+    color: #026670;
+    text-decoration: none;
+}
+
+.front-page-image{
+    max-height: 200px;
+}
+
+.recent-rated{
+    color: #ff8c2f;
+}
+
+.game-title{
+    padding-top: 10px;
+}
+
+.reviews-row{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.reviews-page{
+    margin-top: 2em;
+}
+
+.reviews-row-image{
+    max-height: 150px;
+}
+
+.review-col{
+    width: 50%;
+}
+
+.review-score{
+    width: 23%;
+    color: white;
+    margin-left: 5em;
+}
+
+.table thead tr th, .table tbody tr td {
+    border: none;
+}
+
+.nsbrating{
+    max-height: 80px;
+    margin-bottom: -3.5em;
+    margin-left: -.8em;
+}
+
+.nsbrating-games{
+    max-height: 80px;
+    margin-bottom: -3.5em;
+}
+
+.game-name{
+    color: rgb(61, 61, 61);
+}
+
+.game-name:hover{
+    color: gray;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 1001px) {
+    .nsbrating-review-page{
+        max-height: 115px;
+        margin-top: 2em;
+        margin-left: 15em;
+    }
+    
+    .review-page-rating{
+        margin-top: -2.1em;
+        margin-left: 6.8em;
+        color: white;
+    }
+    
+    .rating-absolute{
+        margin-bottom: -9em;
+    }
+    .review{
+        border-bottom: 1px solid #EDEAE5;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .nsbrating-review-page{
+        max-height: 110px;
+    }
+    
+    .review-page-rating{
+        margin-top: -2em;
+        margin-left: .2em;
+        color: white;
+    }
+    
+    .rating-absolute{
+        margin-bottom: -8em;
+    }
+    .review{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .review-header-desc{
+        margin-left: 2em;
+    }
+  }
+
+.nsbratingfill{
+    max-height: 80px;
+    margin-bottom: -3.6em;
+    margin-left: .26em;
+}
+
+.games-page-score{
+    color: white;
+    margin-top: -3em;
+    margin-left: 3.2em;
+}
+
+.nsbratingfill-games{
+    max-height: 80px;
+    margin-left: 4em;
+    margin-top: -2em;
+}
+
+.game-card-div{
+
+    margin-bottom: -3em;
+    padding-top: 0em;
+}
+
+.games-block{
+    margin-top: -2em;
+}
+
+.article-dual-column{
+    min-height: 64vh;
+}
