@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="container">
 <div class="article-dual-column">
         <div class="container">
             <div class="row">
@@ -11,12 +12,12 @@
             </div>
             <div class="row">
                 <div class="col-md-10 col-lg-3 offset-md-1">
-                    <div class="toc">
+                    <div class="">
                         <img src="{{asset('/storage/images/aboutus.png')}}" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-md-10 col-lg-7 offset-md-1 offset-lg-0">
-                    <div class="text">
+                    <div class="text about-us">
                         <p>We fell in love with board games after receiving Catan from Larissa's family as a Christmas gift. 
                             Since then, we have board game nights with family and friends as much as possible. We have grown our board
                             game collection very quickly, and do not plan on stopping anytime soon.
@@ -35,4 +36,5 @@
             </div>
         </div>
     </div>
+</div>
 @endsection
