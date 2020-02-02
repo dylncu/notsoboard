@@ -170,10 +170,6 @@
     .about-us{
         margin-top: 2em;
     }
-    .game-card-div{
-        padding-top: 1em;
-        margin-bottom: -1em;
-    }
   }
 
 .nsbratingfill{
@@ -195,7 +191,7 @@
 }
 
 .game-card-div{
-    margin-bottom: -3em;
+    margin-bottom: -1em;
     padding-top: 0em;
 }
 
