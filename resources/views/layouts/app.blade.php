@@ -62,21 +62,12 @@
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-md-3 item">
-                        <h5>Members</h5>
-                        <ul>
-                            <li><a href="#">Dylan |&nbsp;NSB Game Reviews, Design, Web Development</a></li>
-                            <li><a href="#">Larissa</a>&nbsp;|&nbsp;<a href="https://bootstrapstudio.io/app/?shell=4#">NSB Game Reviews, Design</a><br></li>
-                            <li></li>
-                        </ul>
-                    </div>
                     <div class="col-md-6 item text">
-                        <h5>Not So Board</h5>
-                        <p>Started in 2020 - We provide bite-sized reviews for current and future board game hobbiests.</p>
+                    <p>Not So Board © 2020</p>
+                    <p>We provide bite-sized reviews for current and future board game hobbiests.</p>
                     </div>
                     <div class="col item social"><a href="https://twitter.com/NotSoBoardGames"><i class="icon ion-social-twitter"></i></a></a><a href="https://www.instagram.com/notsoboardgames/"><i class="icon ion-social-instagram"></i></a></div>
                 </div>
-                <p class="copyright">Not So Board © 2020</p>
             </div>
         </footer>
     </div>
