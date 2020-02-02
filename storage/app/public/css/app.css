@@ -79,7 +79,6 @@
 .reviews-row{
     padding-top: 2em;
     padding-bottom: 2em;
-    border-bottom: 1px solid #d8d8d8;
 }
 
 .reviews-page{
@@ -171,6 +170,9 @@
     .about-us{
         margin-top: 2em;
     }
+    .game-card-div{
+        padding-top: 1em;
+    }
   }
 
 .nsbratingfill{
@@ -192,15 +194,17 @@
 }
 
 .game-card-div{
-
     margin-bottom: -3em;
     padding-top: 0em;
 }
 
 .games-block{
-    margin-top: -2em;
+    margin-bottom: 2em;
 }
 
 .article-dual-column{
     min-height: 64vh;
+}
+.footer-dark{
+    margin-top: 4em;
 }
