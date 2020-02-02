@@ -42,10 +42,10 @@
                                 </div>
                             </li>
                 @endauth
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="/games">Games</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="/reviews">Reviews</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="/about">About</a></li>
+                    <li class="nav-item text-right" role="presentation"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item text-right" role="presentation"><a class="nav-link" href="/games">Games</a></li>
+                    <li class="nav-item text-right" role="presentation"><a class="nav-link" href="/reviews">Reviews</a></li>
+                    <li class="nav-item text-right" role="presentation"><a class="nav-link" href="/about">About</a></li>
                 </ul>
         </div>
         </div>
