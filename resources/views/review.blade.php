@@ -47,6 +47,11 @@
             </div>
         </div>
         @endforeach
+        <div class="row">
+        <div class="col-md-10 offset-md-1">
+        <p class="text-right back-to-reviews"><a class="btn btn-light btn-sm" href="/reviews" role="button">Back to Reviews</a></p>
+        </div>
+        </div>
     </div> 
 </div>
 @else
