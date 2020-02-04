@@ -3,7 +3,7 @@
 @section('content')
 
 <div class = "container">
-<div class="col-md-4 offset-md-4">
+<div class="col-md-4 offset-md-4 reviews-container">
     <img class="img-fluid" src="{{asset('/storage/images/reviewsheader.png')}}">
     <p class="text-center"> Sort by:
         <a href="/reviews" class="tag">Recent</a>
@@ -26,7 +26,7 @@
                         <h5>{{$game->rating()}}</h5>
                     </th>
                     <th class="review-col" scope="col"><a class="game-name" href="/games/{{$game->slug}}"><h5>{{$game->name}}</h5></a></th>
-                    <th scope="col"><a class="btn btn-light btn-sm" href="{{$game->referral_link}}" role="button">Amazon</a></th>
+                    <th scope="col"><a class="btn btn-light btn-sm" href="{{$game->referral_link}}" role="button" target="_blank">Amazon</a></th>
                     </tr>
                 </thead>
             </table>

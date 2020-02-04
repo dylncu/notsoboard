@@ -14,7 +14,7 @@
                     </div>
                     <div class="intro">
                         <h1 class="text-center">{{$game->name}}</h1>
-                        <p class="text-center review-header-desc"><span class="by">Not So Board</span> <span class="date">{{$reviews[0]->date()}} </span>  <span class="date"><a class="btn btn-light btn-sm" href="{{$game->referral_link}}" role="button">Amazon</a></span></p></div>
+                        <p class="text-center review-header-desc"><span class="by">Not So Board</span> <span class="date">{{$reviews[0]->date()}} </span>  <span class="date"><a class="btn btn-light btn-sm" href="{{$game->referral_link}}" role="button" target="_blank">Amazon</a></span></p></div>
                 </div>
             </div>
             @foreach($reviews as $review)
